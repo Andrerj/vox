@@ -19,7 +19,6 @@ class resultViewController: UIViewController {
     override func viewDidLoad() {
         self.navigationItem.title = "Frase"
         txtPhrase.text = self.frase
-        
     }
     
     @IBAction func btnFala(sender: AnyObject) {

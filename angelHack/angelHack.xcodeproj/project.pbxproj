@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		411BED0D1CC3D306003169A8 /* Eu_preciso_de_oculos_de_natação.png in Resources */ = {isa = PBXBuildFile; fileRef = 411BED0C1CC3D306003169A8 /* Eu_preciso_de_oculos_de_natação.png */; };
 		4137F7441CC2E3F8001244F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4137F7431CC2E3F8001244F8 /* AppDelegate.swift */; };
 		4137F7461CC2E3F8001244F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4137F7451CC2E3F8001244F8 /* ViewController.swift */; };
 		4137F7491CC2E3F8001244F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4137F7471CC2E3F8001244F8 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		411BED0C1CC3D306003169A8 /* Eu_preciso_de_oculos_de_natação.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Eu_preciso_de_oculos_de_natação.png"; sourceTree = "<group>"; };
 		4137F7401CC2E3F8001244F8 /* angelHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = angelHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4137F7431CC2E3F8001244F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4137F7451CC2E3F8001244F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				4137F77E1CC2FB63001244F8 /* ViewControllers */,
 				4137F7431CC2E3F8001244F8 /* AppDelegate.swift */,
 				4137F7471CC2E3F8001244F8 /* Main.storyboard */,
+				411BED0C1CC3D306003169A8 /* Eu_preciso_de_oculos_de_natação.png */,
 				4137F74D1CC2E3F8001244F8 /* Assets.xcassets */,
 				B0BB7E361CC3CD05000EBBE8 /* audio.png */,
 				B066D8D41CC3A5AB005D3988 /* teste-01.png */,
@@ -226,7 +229,7 @@
 				TargetAttributes = {
 					4137F73F1CC2E3F8001244F8 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 7S84RQ3NGE;
+						DevelopmentTeam = ETCP9R5EPN;
 					};
 					4137F7561CC2E3F8001244F8 = {
 						CreatedOnToolsVersion = 7.3;
@@ -263,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				411BED0D1CC3D306003169A8 /* Eu_preciso_de_oculos_de_natação.png in Resources */,
 				4137F7511CC2E3F8001244F8 /* LaunchScreen.storyboard in Resources */,
 				4137F74E1CC2E3F8001244F8 /* Assets.xcassets in Resources */,
 				B066D8D51CC3A5AB005D3988 /* teste-01.png in Resources */,

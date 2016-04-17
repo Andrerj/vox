@@ -22,18 +22,23 @@ class phraseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         if tagButton == 0
         {
-            saveFrase("ElaSeMudou")
-            self.navigationItem.title = "Ajuda"
+            saveFrase("Eu_preciso_de_oculos_de_natação")
+            self.navigationItem.title = "Compras"
         }
         if tagButton == 1
         {
             saveFrase("EuGostoDeMontarACavalo")
-            self.navigationItem.title = "Compras"
+            self.navigationItem.title = "Lazer"
         }
         if tagButton == 2
         {
-            saveFrase("EUNaoSeiNadar")
-            self.navigationItem.title = "Esportes"
+            saveFrase("EuNaoSeiNadar")
+            self.navigationItem.title = "Praia"
+        }
+        if tagButton == 3
+        {
+            saveFrase("ElaSeMudou")
+            self.navigationItem.title = "Cotidiano"
         }
         
         
@@ -105,7 +110,7 @@ class phraseViewController: UIViewController, UITableViewDelegate, UITableViewDa
             
             if tagButton == 0
             {
-                segueToCategory.frase = "Ela se mudou."
+                segueToCategory.frase = "Eu preciso de oculos de natação."
             }
             if tagButton == 1
             {
@@ -114,6 +119,10 @@ class phraseViewController: UIViewController, UITableViewDelegate, UITableViewDa
             if tagButton == 2
             {
                 segueToCategory.frase = "Eu não sei nadar."
+            }
+            if tagButton == 3
+            {
+                segueToCategory.frase = "Ela se mudou."
             }
         }
     }
