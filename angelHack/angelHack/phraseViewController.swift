@@ -28,7 +28,7 @@ class phraseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         if tagButton == 1
         {
             saveFrase("EuGostoDeMontarACavalo")
-            self.navigationItem.title = "Lazer"
+            self.navigationItem.title = "Esporte"
         }
         if tagButton == 2
         {
@@ -38,7 +38,7 @@ class phraseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         if tagButton == 3
         {
             saveFrase("ElaSeMudou")
-            self.navigationItem.title = "Cotidiano"
+            self.navigationItem.title = "Conversa"
         }
         
         
