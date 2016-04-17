@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="JW3-EI-V8t">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="JF0-pS-r7v">
+            <objects>
+                <navigationController id="JW3-EI-V8t" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="i9O-T2-1yH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="7CZ-1Y-KHx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JZu-0e-3BN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-888.5" y="358.5"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Home" id="BYZ-38-t0r" customClass="ViewController" customModule="angelHack" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q8e-i7-dhu" userLabel="BackgroundView">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="647" id="dZg-Y0-pac"/>
+                                    <constraint firstAttribute="width" constant="376" id="pif-tC-Yf0"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="dZg-Y0-pac"/>
+                                        <exclude reference="pif-tC-Yf0"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="q8e-i7-dhu" secondAttribute="trailing" id="3CM-sw-mTY"/>
+                            <constraint firstItem="q8e-i7-dhu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="72l-DO-sQe"/>
+                            <constraint firstAttribute="trailing" secondItem="q8e-i7-dhu" secondAttribute="trailing" id="93A-4p-oEO"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="q8e-i7-dhu" secondAttribute="bottom" id="D8l-up-88f"/>
+                            <constraint firstItem="q8e-i7-dhu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="PBz-Bd-edP"/>
+                            <constraint firstItem="q8e-i7-dhu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="S9d-rq-5qC"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="q8e-i7-dhu" secondAttribute="bottom" id="ksI-Rv-t7h"/>
+                            <constraint firstItem="q8e-i7-dhu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="64" id="xI5-Ao-bXf"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="72l-DO-sQe"/>
+                                <exclude reference="D8l-up-88f"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="AngelHack" id="HCU-U4-kIe"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="BackgroundView" destination="q8e-i7-dhu" id="Fyw-lw-QzA"/>
+                        <outlet property="View" destination="q8e-i7-dhu" id="P3m-zO-gGw"/>
+                        <segue destination="GA6-dE-OlN" kind="show" identifier="PhraseCategory" id="7kb-3x-NUe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-303.5" y="358.5"/>
+        </scene>
+        <!--Phrase View Controller-->
+        <scene sceneID="XNv-V0-C2A">
+            <objects>
+                <viewController id="GA6-dE-OlN" customClass="phraseViewController" customModule="angelHack" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6ST-Iu-yZ6"/>
+                        <viewControllerLayoutGuide type="bottom" id="7yc-aM-Io1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pne-N5-8Id">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="24K-TX-HlL">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PhraseTableCell" rowHeight="90" id="NsM-6x-mnB" customClass="PhraseTableViewCell" customModule="angelHack" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="92" width="375" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NsM-6x-mnB" id="9Sl-IB-TFn">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="89.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xus-zB-v3D">
+                                                    <rect key="frame" x="0.0" y="0.0" width="339" height="89.5"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pNb-Vr-tXS">
+                                                            <rect key="frame" x="0.0" y="0.0" width="383" height="89.5"/>
+                                                            <color key="backgroundColor" red="1" green="0.00092539059728025119" blue="0.1348495808440594" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </imageView>
+                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZgV-vy-mks">
+                                                            <rect key="frame" x="8" y="2" width="375" height="74.5"/>
+                                                            <connections>
+                                                                <action selector="btnTable:" destination="GA6-dE-OlN" eventType="touchUpInside" id="ATJ-Id-02A"/>
+                                                            </connections>
+                                                        </button>
+                                                    </subviews>
+                                                </scrollView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="scroll" destination="xus-zB-v3D" id="Dds-VK-Sj1"/>
+                                            <outlet property="signImage" destination="pNb-Vr-tXS" id="xbC-Ta-kQt"/>
+                                            <segue destination="qsY-wc-Gts" kind="show" identifier="ResultCategory" id="Xt8-st-0K5"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="tableView" destination="24K-TX-HlL" id="dCR-9n-Obr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PJz-gQ-aPh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="151.5" y="358.5"/>
+        </scene>
+        <!--Result View Controller-->
+        <scene sceneID="rSv-8v-N1a">
+            <objects>
+                <viewController title="Result View Controller" id="qsY-wc-Gts" customClass="resultViewController" customModule="angelHack" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ec1-x1-5R9"/>
+                        <viewControllerLayoutGuide type="bottom" id="UP0-x9-tia"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aAI-ev-307">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circo" translatesAutoresizingMaskIntoConstraints="NO" id="eBD-qp-sV8">
+                                <rect key="frame" x="127" y="384" width="120" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="1j3-tv-Gdt"/>
+                                    <constraint firstAttribute="height" constant="100" id="d75-Qs-dU3"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="PpI-PR-FFK">
+                                <rect key="frame" x="0.0" y="278" width="375" height="60"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="RyM-7k-924">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Texto" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wma-Hz-Sae">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="MqK-gx-Zdm"/>
+                                                    <constraint firstAttribute="width" constant="375" id="gfX-lH-EXA"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UP0-x9-tia" firstAttribute="top" secondItem="eBD-qp-sV8" secondAttribute="bottom" constant="183" id="c2Z-cL-dHA"/>
+                            <constraint firstAttribute="trailing" secondItem="eBD-qp-sV8" secondAttribute="trailing" constant="128" id="rKq-rp-Dk9"/>
+                            <constraint firstItem="eBD-qp-sV8" firstAttribute="leading" secondItem="aAI-ev-307" secondAttribute="leading" constant="127" id="wY4-q3-O8p"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="txtPhrase" destination="Wma-Hz-Sae" id="cAm-iG-qvG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hUZ-dn-w1h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="645.5" y="358.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="circo" width="256" height="256"/>
+    </resources>
+</document>

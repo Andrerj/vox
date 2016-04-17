@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4137F7441CC2E3F8001244F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4137F7431CC2E3F8001244F8 /* AppDelegate.swift */; };
+		4137F7461CC2E3F8001244F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4137F7451CC2E3F8001244F8 /* ViewController.swift */; };
+		4137F7491CC2E3F8001244F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4137F7471CC2E3F8001244F8 /* Main.storyboard */; };
+		4137F74C1CC2E3F8001244F8 /* angelHack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4137F74A1CC2E3F8001244F8 /* angelHack.xcdatamodeld */; };
+		4137F74E1CC2E3F8001244F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4137F74D1CC2E3F8001244F8 /* Assets.xcassets */; };
+		4137F7511CC2E3F8001244F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4137F74F1CC2E3F8001244F8 /* LaunchScreen.storyboard */; };
+		4137F75C1CC2E3F8001244F8 /* angelHackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4137F75B1CC2E3F8001244F8 /* angelHackTests.swift */; };
+		4137F7671CC2E3F8001244F8 /* angelHackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4137F7661CC2E3F8001244F8 /* angelHackUITests.swift */; };
+		4137F7791CC2FA7B001244F8 /* phraseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4137F7781CC2FA7B001244F8 /* phraseViewController.swift */; };
+		4137F77B1CC2FABB001244F8 /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4137F77A1CC2FABB001244F8 /* resultViewController.swift */; };
+		B066D8D51CC3A5AB005D3988 /* teste-01.png in Resources */ = {isa = PBXBuildFile; fileRef = B066D8D41CC3A5AB005D3988 /* teste-01.png */; };
+		C7CFB2391CC338840089CC89 /* PhraseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CFB2381CC338840089CC89 /* PhraseTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4137F7581CC2E3F8001244F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4137F7381CC2E3F8001244F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4137F73F1CC2E3F8001244F8;
+			remoteInfo = angelHack;
+		};
+		4137F7631CC2E3F8001244F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4137F7381CC2E3F8001244F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4137F73F1CC2E3F8001244F8;
+			remoteInfo = angelHack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4137F7401CC2E3F8001244F8 /* angelHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = angelHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4137F7431CC2E3F8001244F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4137F7451CC2E3F8001244F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4137F7481CC2E3F8001244F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4137F74B1CC2E3F8001244F8 /* angelHack.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = angelHack.xcdatamodel; sourceTree = "<group>"; };
+		4137F74D1CC2E3F8001244F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4137F7501CC2E3F8001244F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4137F7521CC2E3F8001244F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4137F7571CC2E3F8001244F8 /* angelHackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = angelHackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4137F75B1CC2E3F8001244F8 /* angelHackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = angelHackTests.swift; sourceTree = "<group>"; };
+		4137F75D1CC2E3F8001244F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4137F7621CC2E3F8001244F8 /* angelHackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = angelHackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4137F7661CC2E3F8001244F8 /* angelHackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = angelHackUITests.swift; sourceTree = "<group>"; };
+		4137F7681CC2E3F8001244F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4137F7781CC2FA7B001244F8 /* phraseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = phraseViewController.swift; sourceTree = "<group>"; };
+		4137F77A1CC2FABB001244F8 /* resultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
+		B066D8D41CC3A5AB005D3988 /* teste-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teste-01.png"; sourceTree = "<group>"; };
+		C7CFB2381CC338840089CC89 /* PhraseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhraseTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4137F73D1CC2E3F8001244F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4137F7541CC2E3F8001244F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4137F75F1CC2E3F8001244F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4137F7371CC2E3F8001244F8 = {
+			isa = PBXGroup;
+			children = (
+				4137F7421CC2E3F8001244F8 /* angelHack */,
+				4137F75A1CC2E3F8001244F8 /* angelHackTests */,
+				4137F7651CC2E3F8001244F8 /* angelHackUITests */,
+				4137F7411CC2E3F8001244F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4137F7411CC2E3F8001244F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4137F7401CC2E3F8001244F8 /* angelHack.app */,
+				4137F7571CC2E3F8001244F8 /* angelHackTests.xctest */,
+				4137F7621CC2E3F8001244F8 /* angelHackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4137F7421CC2E3F8001244F8 /* angelHack */ = {
+			isa = PBXGroup;
+			children = (
+				C7CFB2371CC338350089CC89 /* TableCell */,
+				4137F77E1CC2FB63001244F8 /* ViewControllers */,
+				4137F7431CC2E3F8001244F8 /* AppDelegate.swift */,
+				4137F7471CC2E3F8001244F8 /* Main.storyboard */,
+				4137F74D1CC2E3F8001244F8 /* Assets.xcassets */,
+				B066D8D41CC3A5AB005D3988 /* teste-01.png */,
+				4137F74F1CC2E3F8001244F8 /* LaunchScreen.storyboard */,
+				4137F7521CC2E3F8001244F8 /* Info.plist */,
+				4137F74A1CC2E3F8001244F8 /* angelHack.xcdatamodeld */,
+			);
+			path = angelHack;
+			sourceTree = "<group>";
+		};
+		4137F75A1CC2E3F8001244F8 /* angelHackTests */ = {
+			isa = PBXGroup;
+			children = (
+				4137F75B1CC2E3F8001244F8 /* angelHackTests.swift */,
+				4137F75D1CC2E3F8001244F8 /* Info.plist */,
+			);
+			path = angelHackTests;
+			sourceTree = "<group>";
+		};
+		4137F7651CC2E3F8001244F8 /* angelHackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4137F7661CC2E3F8001244F8 /* angelHackUITests.swift */,
+				4137F7681CC2E3F8001244F8 /* Info.plist */,
+			);
+			path = angelHackUITests;
+			sourceTree = "<group>";
+		};
+		4137F77E1CC2FB63001244F8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4137F7451CC2E3F8001244F8 /* ViewController.swift */,
+				4137F7781CC2FA7B001244F8 /* phraseViewController.swift */,
+				4137F77A1CC2FABB001244F8 /* resultViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C7CFB2371CC338350089CC89 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				C7CFB2381CC338840089CC89 /* PhraseTableViewCell.swift */,
+			);
+			name = TableCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4137F73F1CC2E3F8001244F8 /* angelHack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4137F76B1CC2E3F8001244F8 /* Build configuration list for PBXNativeTarget "angelHack" */;
+			buildPhases = (
+				4137F73C1CC2E3F8001244F8 /* Sources */,
+				4137F73D1CC2E3F8001244F8 /* Frameworks */,
+				4137F73E1CC2E3F8001244F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = angelHack;
+			productName = angelHack;
+			productReference = 4137F7401CC2E3F8001244F8 /* angelHack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4137F7561CC2E3F8001244F8 /* angelHackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4137F76E1CC2E3F8001244F8 /* Build configuration list for PBXNativeTarget "angelHackTests" */;
+			buildPhases = (
+				4137F7531CC2E3F8001244F8 /* Sources */,
+				4137F7541CC2E3F8001244F8 /* Frameworks */,
+				4137F7551CC2E3F8001244F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4137F7591CC2E3F8001244F8 /* PBXTargetDependency */,
+			);
+			name = angelHackTests;
+			productName = angelHackTests;
+			productReference = 4137F7571CC2E3F8001244F8 /* angelHackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4137F7611CC2E3F8001244F8 /* angelHackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4137F7711CC2E3F8001244F8 /* Build configuration list for PBXNativeTarget "angelHackUITests" */;
+			buildPhases = (
+				4137F75E1CC2E3F8001244F8 /* Sources */,
+				4137F75F1CC2E3F8001244F8 /* Frameworks */,
+				4137F7601CC2E3F8001244F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4137F7641CC2E3F8001244F8 /* PBXTargetDependency */,
+			);
+			name = angelHackUITests;
+			productName = angelHackUITests;
+			productReference = 4137F7621CC2E3F8001244F8 /* angelHackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4137F7381CC2E3F8001244F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					4137F73F1CC2E3F8001244F8 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = ETCP9R5EPN;
+					};
+					4137F7561CC2E3F8001244F8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4137F73F1CC2E3F8001244F8;
+					};
+					4137F7611CC2E3F8001244F8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4137F73F1CC2E3F8001244F8;
+					};
+				};
+			};
+			buildConfigurationList = 4137F73B1CC2E3F8001244F8 /* Build configuration list for PBXProject "angelHack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4137F7371CC2E3F8001244F8;
+			productRefGroup = 4137F7411CC2E3F8001244F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4137F73F1CC2E3F8001244F8 /* angelHack */,
+				4137F7561CC2E3F8001244F8 /* angelHackTests */,
+				4137F7611CC2E3F8001244F8 /* angelHackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4137F73E1CC2E3F8001244F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4137F7511CC2E3F8001244F8 /* LaunchScreen.storyboard in Resources */,
+				4137F74E1CC2E3F8001244F8 /* Assets.xcassets in Resources */,
+				B066D8D51CC3A5AB005D3988 /* teste-01.png in Resources */,
+				4137F7491CC2E3F8001244F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4137F7551CC2E3F8001244F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4137F7601CC2E3F8001244F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4137F73C1CC2E3F8001244F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CFB2391CC338840089CC89 /* PhraseTableViewCell.swift in Sources */,
+				4137F7461CC2E3F8001244F8 /* ViewController.swift in Sources */,
+				4137F74C1CC2E3F8001244F8 /* angelHack.xcdatamodeld in Sources */,
+				4137F77B1CC2FABB001244F8 /* resultViewController.swift in Sources */,
+				4137F7441CC2E3F8001244F8 /* AppDelegate.swift in Sources */,
+				4137F7791CC2FA7B001244F8 /* phraseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4137F7531CC2E3F8001244F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4137F75C1CC2E3F8001244F8 /* angelHackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4137F75E1CC2E3F8001244F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4137F7671CC2E3F8001244F8 /* angelHackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4137F7591CC2E3F8001244F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4137F73F1CC2E3F8001244F8 /* angelHack */;
+			targetProxy = 4137F7581CC2E3F8001244F8 /* PBXContainerItemProxy */;
+		};
+		4137F7641CC2E3F8001244F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4137F73F1CC2E3F8001244F8 /* angelHack */;
+			targetProxy = 4137F7631CC2E3F8001244F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4137F7471CC2E3F8001244F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4137F7481CC2E3F8001244F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4137F74F1CC2E3F8001244F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4137F7501CC2E3F8001244F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4137F7691CC2E3F8001244F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4137F76A1CC2E3F8001244F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4137F76C1CC2E3F8001244F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = angelHack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angelHack.angelHack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		4137F76D1CC2E3F8001244F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = angelHack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angelHack.angelHack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		4137F76F1CC2E3F8001244F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = angelHackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angelHack.angelHackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/angelHack.app/angelHack";
+			};
+			name = Debug;
+		};
+		4137F7701CC2E3F8001244F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = angelHackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angelHack.angelHackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/angelHack.app/angelHack";
+			};
+			name = Release;
+		};
+		4137F7721CC2E3F8001244F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = angelHackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angelHack.angelHackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = angelHack;
+			};
+			name = Debug;
+		};
+		4137F7731CC2E3F8001244F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = angelHackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angelHack.angelHackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = angelHack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4137F73B1CC2E3F8001244F8 /* Build configuration list for PBXProject "angelHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4137F7691CC2E3F8001244F8 /* Debug */,
+				4137F76A1CC2E3F8001244F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4137F76B1CC2E3F8001244F8 /* Build configuration list for PBXNativeTarget "angelHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4137F76C1CC2E3F8001244F8 /* Debug */,
+				4137F76D1CC2E3F8001244F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4137F76E1CC2E3F8001244F8 /* Build configuration list for PBXNativeTarget "angelHackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4137F76F1CC2E3F8001244F8 /* Debug */,
+				4137F7701CC2E3F8001244F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4137F7711CC2E3F8001244F8 /* Build configuration list for PBXNativeTarget "angelHackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4137F7721CC2E3F8001244F8 /* Debug */,
+				4137F7731CC2E3F8001244F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4137F74A1CC2E3F8001244F8 /* angelHack.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4137F74B1CC2E3F8001244F8 /* angelHack.xcdatamodel */,
+			);
+			currentVersion = 4137F74B1CC2E3F8001244F8 /* angelHack.xcdatamodel */;
+			path = angelHack.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4137F7381CC2E3F8001244F8 /* Project object */;
+}
