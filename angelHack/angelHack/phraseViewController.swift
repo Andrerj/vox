@@ -19,19 +19,21 @@ class phraseViewController: UIViewController, UITableViewDelegate, UITableViewDa
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationItem.title = String(tagButton)
         
         if tagButton == 0
         {
             saveFrase("ElaSeMudou")
+            self.navigationItem.title = "Ajuda"
         }
         if tagButton == 1
         {
             saveFrase("EuGostoDeMontarACavalo")
+            self.navigationItem.title = "Compras"
         }
         if tagButton == 2
         {
             saveFrase("EUNaoSeiNadar")
+            self.navigationItem.title = "Esportes"
         }
         
         

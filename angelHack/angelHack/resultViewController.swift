@@ -14,7 +14,7 @@ class resultViewController: UIViewController {
     var frase = ""
     
     override func viewDidLoad() {
-        
+        self.navigationItem.title = "Frase"
         txtPhrase.text = self.frase
         
     }

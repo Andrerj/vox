@@ -93,7 +93,6 @@ class ViewController: UIViewController {
             
         }
         
-        self.BackgroundView.backgroundColor = UIColor.brownColor()
     }
     
     func btnAction(sender:UIButton!)
@@ -121,6 +120,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.title = "Vox"
         createButton()
         
     }
