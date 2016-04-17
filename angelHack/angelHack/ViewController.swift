@@ -57,18 +57,18 @@ class ViewController: UIViewController {
         for cont in 0..<qtdButton
         {
 
-        var images = [UIImage(named: "Ajuda"),
-                      UIImage(named: "Ajuda"),
-                      UIImage(named: "Ajuda"),
-                      UIImage(named: "Ajuda"),
-                      UIImage(named: "Ajuda"),
-                      UIImage(named: "Ajuda"),
-                      UIImage(named: "Ajuda"),
-                      UIImage(named: "Trabalho"),]
+        var images = [UIImage(named: "Comprar"),
+                      UIImage(named: "Esporte"),
+                      UIImage(named: "Praia"),
+                      UIImage(named: "Conversar"),
+                      UIImage(named: "Paquerar"),
+                      UIImage(named: "Trabalhar"),
+                      UIImage(named: "Querer"),
+                      UIImage(named: "Ajudar"),]
             
             //Criando Imagem
             let imageView = UIImageView(image: images[cont])
-            imageView.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
+            imageView.frame = CGRect(x: 0, y: 0, width: widthButton, height: heigthButton)
             
             //Criando o Botão
             btn = UIButton(type: UIButtonType.System) as UIButton
