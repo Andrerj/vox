@@ -28,11 +28,11 @@ class phraseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         if tagButton == 1
         {
             saveFrase("EuGostoDeMontarACavalo")
-            self.navigationItem.title = "Compras"
+            self.navigationItem.title = "Lazer"
         }
         if tagButton == 2
         {
-            saveFrase("EUNaoSeiNadar")
+            saveFrase("EuNaoSeiNadar")
             self.navigationItem.title = "Esportes"
         }
         
