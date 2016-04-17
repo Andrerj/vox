@@ -18,6 +18,7 @@
 		4137F7791CC2FA7B001244F8 /* phraseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4137F7781CC2FA7B001244F8 /* phraseViewController.swift */; };
 		4137F77B1CC2FABB001244F8 /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4137F77A1CC2FABB001244F8 /* resultViewController.swift */; };
 		B066D8D51CC3A5AB005D3988 /* teste-01.png in Resources */ = {isa = PBXBuildFile; fileRef = B066D8D41CC3A5AB005D3988 /* teste-01.png */; };
+		B0BB7E371CC3CD05000EBBE8 /* audio.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BB7E361CC3CD05000EBBE8 /* audio.png */; };
 		C7CFB2391CC338840089CC89 /* PhraseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CFB2381CC338840089CC89 /* PhraseTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		4137F7781CC2FA7B001244F8 /* phraseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = phraseViewController.swift; sourceTree = "<group>"; };
 		4137F77A1CC2FABB001244F8 /* resultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
 		B066D8D41CC3A5AB005D3988 /* teste-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teste-01.png"; sourceTree = "<group>"; };
+		B0BB7E361CC3CD05000EBBE8 /* audio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audio.png; sourceTree = "<group>"; };
 		C7CFB2381CC338840089CC89 /* PhraseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhraseTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 				4137F7431CC2E3F8001244F8 /* AppDelegate.swift */,
 				4137F7471CC2E3F8001244F8 /* Main.storyboard */,
 				4137F74D1CC2E3F8001244F8 /* Assets.xcassets */,
+				B0BB7E361CC3CD05000EBBE8 /* audio.png */,
 				B066D8D41CC3A5AB005D3988 /* teste-01.png */,
 				4137F74F1CC2E3F8001244F8 /* LaunchScreen.storyboard */,
 				4137F7521CC2E3F8001244F8 /* Info.plist */,
@@ -264,6 +267,7 @@
 				4137F74E1CC2E3F8001244F8 /* Assets.xcassets in Resources */,
 				B066D8D51CC3A5AB005D3988 /* teste-01.png in Resources */,
 				4137F7491CC2E3F8001244F8 /* Main.storyboard in Resources */,
+				B0BB7E371CC3CD05000EBBE8 /* audio.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
